@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "event-chain"
+version = "0.1.0"
+description = "Chain of events"
+authors = ["Chen Yu <chenyu.nus@gmail.com>"]
+license = "GPL3.0"
+readme = "README.md"
+packages = [{include = "event_chain"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
